@@ -1,0 +1,22 @@
+
+p {
+  Color: rgb(0,255,255);
+}
+
+body {
+  Color: Orange;
+  background-color: gray;
+  background-image: url(Pickle_Rick.jpg);
+   background-size: cover;
+   padding-left: 10 px
+}
+
+h1 {
+  color: Purple;
+}
+
+.boxmodel {
+   border: 2px solid #0000ff;
+   padding: 10px 10px 10px 10px;
+   margin: 10px 10px 10px 10px;
+}
