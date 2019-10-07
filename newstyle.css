@@ -1,0 +1,117 @@
+body {
+  color: #789497;
+  font-family: Helvetica;
+background-color: black;
+}
+div {
+  text-align: center;
+  background-image: url(paper.jpg);
+  width: 500px;
+  margin: auto;
+  border-top: 10px solid #789497;
+  border-bottom: 10px solid #789497;
+}
+.WrittenUnderline{
+  border-bottom: 1px solid black;
+  width: 450px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+a:hover{
+  color: white;
+}
+a{
+  margin-bottom:0px;
+  color: #789497;
+}
+.lnk{
+  margin-top: -25px;
+  padding-top: -25px:;
+  border-top:-25px;
+}
+.fontcombined {
+  font-family: bold 60px, Helvetica;
+  color: black;
+  text-align: center;
+  font-size: 75px;
+  font-weight: bold;
+  line-height: 60px;
+  padding: zero;
+  margin: 2px;
+}
+.JEC{
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: black;
+  font-style: Helvetica;
+}
+.CS{
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: -25px;
+  margin-bottom:-25px;
+  border-bottom: -25px;
+}
+
+img {
+  margin: 0;
+}
+
+.OI{
+  font-size:32px;
+  font-style: bold 60px, Helvetica;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 0px;
+}
+.CM{
+font-size:32px;
+font-style: bold 60px, Helvetica;
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+line-height: 0px;
+}
+.JG{
+  font-size:32px;
+  font-style: bold 60px, Helvetica;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 0px;
+}
+.GH{
+  font-size:32px;
+  font-style: bold 60px, Helvetica;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 0px;
+}
+.JT{
+  font-size:32px;
+  font-style: italic bold 60px, Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 0px;
+}
+
+.starringunderline{
+  border-bottom: 1px solid #789497;
+  width: 100px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #789497;
+}
