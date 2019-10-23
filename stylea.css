@@ -1,0 +1,106 @@
+body {
+  background-image: url(8_pic1.png);
+}
+
+div {
+  background-color: white;
+  border: 2px solid black;
+  width: 960px;
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+header {
+  grid-column: span 4;
+  color: white;
+  background-color: black;
+/*  padding-left: 40px;*/
+  font-family: helvetica;
+  font-size: 15px;
+}
+
+nav {
+  float: left;
+  grid-column: 1;
+  margin-left: -40px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+li {
+  background-color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 165px;
+  margin-right: 15px
+  padding-left: 10px;
+  font-family: helvetica;
+  font-size: 13px;
+}
+
+li:hover {
+  background-color: brown;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+ }
+
+ img {
+   float: left;
+   margin: 5px;
+  width: 350px;
+   border: 3px solid black;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 8px;
+   padding-right: 8px;
+ }
+
+main {
+  width: 720px;
+/*  margin-left: 240px;*/
+  grid-column: span 3;
+  margin-right: 15px;
+}
+
+.red {
+   color: red;
+   font-weight: bold;
+ }
+
+footer {
+  background-color: red;
+  color: white;
+    grid-column: span 4;
+/*  border-left: : 3px solid black;
+  border-right: : 3px solid black;
+  border-bottom: : 3px solid black;
+  margin: auto;*/
+  font-style: Verdana;
+  text-align: center;
+  font-style: italic;
+  font-family: helvetica;
+  font-size: 16px;
+/*  width: 850px;*/
+}
+.secondheader {
+  border-bottom: 3px solid black;
+  padding-bottom: 8px;
+  font-family: helvetica;
+  font-size: 20px;
+}
+
+.Georgiafont {
+  font-family: Georgia;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 3px;
+}
