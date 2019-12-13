@@ -1,0 +1,50 @@
+body {
+  background-color: Black;
+}
+h1 {
+  color: white;
+  border-bottom: 2px solid white;
+}
+h2 {
+  color: white;
+  }
+  div {
+    width: 400px;
+    margin: auto;
+  }
+p {
+  color:white;
+  margin-right: 900px;
+  font-size: 25px;
+}
+  .gallary {
+    margin-left: 50px;
+    padding: 50px;
+   background-color: green;
+    transition: transform .2s; /*Animation */
+    width: 20px;
+    height: 20px;
+  }
+  .gallary.2 {
+    margin-left: 150px;
+    padding: 50px;
+   background-color: green;
+    transition: transform .2s; /*Animation */
+    width: 20px;
+    height: 20px;
+  }
+  .gallary.3 {
+    margin-right: 250px;
+    padding: 50px;
+   background-color: green;
+    transition: transform .2s; /*Animation */
+    width: 20px;
+    height: 20px;
+  }
+
+  .gallary:hover {
+  transform: scale(1.5);
+}
+  .gallary.2:hover {
+  transform: scale(1);
+}
